@@ -1,0 +1,2 @@
+# nus-fyp
+A lightweight 3D-printed device was built to solve the problem of infrequent testing for angle closure, which often lead to the unsuspected development of the disease and irreversible blindness. The device runs a Python code on a microprocessor to capture images of a patient’s eye with a camera and a light source. Thereafter, a deep learning algorithm built with PyTorch segments the iris and determines the grading of primary angle closure suspect. The result is displayed to the patient through the device.
