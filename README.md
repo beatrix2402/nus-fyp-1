@@ -3,6 +3,7 @@ This repository was created as part of my final year project at the National Uni
 
 In this project, the development of a device using low-cost materials was explored to facilitate the [Standard Flashlight Test (SFT)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5130941/), a simple test done that checks for primary angle closure glaucoma (PACG) in patients. This device was created with the intention of independent use by users regardless of technological skills as majority of the target audience are elderly.
 
+## About the Project
 A lightweight 3D-printed device (`CAD_files`) was built to solve the problem of infrequent testing for angle closure, which often lead to the unsuspected development of the disease and irreversible blindness. The device runs a Python code on a Raspberry Pi Zero (`startup_code_fyp.py`) to capture images of a patient’s eye with a camera and a light source. Thereafter, a deep learning algorithm built with PyTorch (`segmentation_code.ipynb`) segments the iris and determines the grading of primary angle closure suspect. The result is displayed to the patient through the device.
 
 ## About the Repository
